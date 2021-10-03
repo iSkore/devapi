@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/networking",
+      "lambdaFunction": "networking",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/networking"
+    }
+  ],
+  "resourceName": "api54d29b1d",
+  "apiName": "api54d29b1d",
+  "functionArns": [
+    {
+      "lambdaFunction": "networking"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-devapi-dev-133439-authRole",
+    "unAuthRoleName": "amplify-devapi-dev-133439-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "networking",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

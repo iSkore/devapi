@@ -57,9 +57,9 @@
         "last 2 versions"
     ],
     "bugs": {
-        "url": "https://github.com/mi-sec/template-vue-dashboard/issues"
+        "url": "https://github.com/iskore/devapi/issues"
     },
-    "homepage": "https://github.com/mi-sec/template-vue-dashboard#readme",
+    "homepage": "https://github.com/iskore/devapi#readme",
     "keywords": [
         "vue",
         "dashboard",
@@ -68,6 +68,6 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mi-sec/template-vue-dashboard.git"
+        "url": "git+https://github.com/iskore/devapi.git"
     }
 }

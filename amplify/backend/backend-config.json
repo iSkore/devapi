@@ -5,5 +5,28 @@
       "type": "cicd",
       "lastPushTimeStamp": "2021-10-03T17:38:23.462Z"
     }
+  },
+  "function": {
+    "networking": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "api": {
+    "api54d29b1d": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "networking",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
   }
 }
